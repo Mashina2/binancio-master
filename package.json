@@ -1,0 +1,41 @@
+{
+  "name": "binancio",
+  "version": "1.2.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "outDir": "./dist/",
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "Sanchez Marcos",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchezmarcos/binancio.git"
+  },
+  "keywords": [
+    "binance",
+    "p2p",
+    "bot",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/sanchezmarcos/binancio/issues"
+  },
+  "homepage": "https://github.com/sanchezmarcos/binancio#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^8.0.0-1",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
