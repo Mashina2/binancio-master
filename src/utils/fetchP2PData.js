@@ -49,7 +49,6 @@ function fetchP2PData(page = 1,fiat = "ARS",tradeType = "BUY",asset = "USDT",pay
     req.end();
   });
 
-  thanks();
 }
 
 module.exports = fetchP2PData;
