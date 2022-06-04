@@ -13,7 +13,6 @@ app.use(function (req, res, next) {
     next();
     });
 
-
 app.get("/", (req, res) =>{
     res.send("Hello from server")
 })
@@ -32,7 +31,7 @@ app.post("/price",(req,res)=>{
     const data = new Price(req.body)
     data.save().then(()=>{
         res.send(data)
-    }).catch((e)=>{
+    }).catch((e)=> {
         res.send(e)
     })
 })
