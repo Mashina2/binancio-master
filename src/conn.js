@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb://localhost:27017/price",{
+mongoose.connect("mongodb+srv://usdm:usdm123@cluster0.9e97h4h.mongodb.net/?retryWrites=true&w=majority",{
   
     useNewUrlParser:true,
     useUnifiedTopology:true
