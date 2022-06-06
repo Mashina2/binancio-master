@@ -16,7 +16,7 @@ function run() {
           console.log("Error",error);
         });
     console.log("running")
-  },60000);
+  },3600000);
 }
 
 run();
